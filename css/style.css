@@ -1,0 +1,546 @@
+*{margin:0px; box-sizing: border-box;} 
+
+body{overflow-x: hidden;
+    font-family: 'Mukta'}
+
+@font-face {
+    font-family: "Mukta";
+    src: url(../mukta-font/Mukta-Medium.ttf);
+}
+
+h1, h2, h3, h4, h5, h6{ margin-bottom: 0px;} 
+
+:root{
+--mainColor: #173334;
+--fontColor: blue; 
+--headingColor: black; 
+--paraColor: white;
+--cardsbg-color:rgb(196, 228, 231);
+--color-white: white;
+}
+
+li{ list-style: none; color: white;}
+ul{padding: 0px;}
+
+/* --- col-50% col-25% col-33.33%-----  */
+.col{ padding: 5px; }
+.col-6{width:50%; padding:5px; line-height: 38px;}
+
+.col-3{width:25%;  padding:5px;}
+
+.col-4{width:33.33%; padding:5px;}
+
+.col-5{ width: 18%;}
+
+.row{display: flex; flex-wrap: wrap;}
+
+.container{max-width:1200px; width:100%; margin:0px auto;}
+.container-fluid{ width: 100%;}
+
+.d-flex{display: flex; flex-wrap: wrap;} 
+.justify-content-between{justify-content: space-between;}
+.flex-d-col{ flex-direction: column;}
+.justify-content-center{justify-content: center;}
+.justify-content-end{justify-content: end;}
+.justify-content-around{justify-content: space-around;}
+.align-items-center{align-items: center;}
+.align-items-start{ align-items: start;}
+.align-items-end{ align-items: end;}
+.p-l{ padding-left: 15px;}
+.text-align-start{ text-align: start;}
+.text-align-center{ text-align: center;}
+
+
+.card-body{padding:15px;}
+
+.text-white{ color: var(--color-white);}
+/* header */
+header{background-color: var(--mainColor);  }
+header .row{ height: 64px;}
+
+.logo{ font-size: 23px;}
+
+.search-bar{     border: 1px solid #6b706d;
+    border-radius: 10px;
+    padding-right: 279px;
+    margin-right: 13px;
+}
+
+.search-bar input{height: 40px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: white;  
+}
+
+.time{ color: white;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.btn-1{ border: none;
+    background: transparent;
+    color: orange;
+    font-size: 17px;
+}
+
+.kart{ width: 27%;}
+
+.contact{ line-height: 21px;}
+.kart h4{ color: orange;}
+
+.kart i{ font-size: 26px; padding: 0px 10px;}
+
+/* nav */
+nav{ background-color: #173334;}
+nav h5:hover span{ color: orange;}
+
+.btn-2{border: none;
+    background-color: rgb(237, 175, 61);
+    padding: 10px 27px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* testimonials */
+.testimonial{padding: 40px 0px;}
+.testimonial h2{padding-top: 12px;
+    font-weight: bolder;
+    font-size: 33px;
+}
+.testimonial p{opacity: 0.5;
+    font-weight: bolder;
+    margin: 18px 0px;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.t2 {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+
+}
+
+.test-1 img {
+    vertical-align: middle;
+}
+
+.testimonial h3 {
+    font-size: 32px;
+    max-width: 100%;
+}
+
+.test-1 {
+    padding: 12px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+
+}
+
+.test-1 p {
+    margin: 20px 0px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: 'Mukta';
+}
+
+.testimonial button {
+    background-color: #FEBD2F;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.testimonial button i{ padding-right: 12px;}
+.test-icon{font-size: 13px;
+    padding: 11px;
+}
+
+/* blog */
+.card-body h4{
+    font-size: 23px;
+    font-family: sans-serif;
+ }
+
+ .card-body{border: none;}
+
+.blog1 h2 {
+    font-weight: 800;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: var(--maroon);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.blog1 p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--maroon);
+    letter-spacing: 0.3px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 26px;
+}
+
+.card img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.blog-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 41px;
+    justify-content: space-between;
+}
+
+.blog-bottom button {
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 127px;
+    background-color: #e6ab41;
+    border: none;
+    height: 38px;
+}
+.blog-bottom span {
+    background: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.card-body p {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: 0.8;
+    line-height: 23px;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* cards */
+.cards h2{ color: orange;}
+.cards p{ color: white; }
+
+.card-btn{background-color: orange;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 125px;
+    height: 33px;
+    border: none;
+    transition: 0.3s ease;
+    
+    font-weight: 600;
+    
+}
+.card-1{
+    background-image: url(../images/card-1.jpg); 
+    height: 195px;
+    border-radius: 10px;
+    padding-top: 36px;
+    padding-left: 12px;
+    
+}
+
+
+
+.card-2{
+    background-image: url(../images/card-2.jpg);
+    height: 195px;
+    border-radius: 10px;
+    padding-top: 36px;
+    padding-left: 12px;
+
+}
+.card-3{
+    background-image: url(../images/card-3.jpg);
+    height: 195px;
+    border-radius: 10px;
+    padding-top: 36px;
+    padding-left: 12px;
+
+}
+
+.card-4{
+    background-image: url(../images/card-4.jpg);
+    height: 195px;
+    border-radius: 10px;
+    padding-top: 36px;
+    padding-left: 12px;
+
+}
+
+
+/* love categies */
+ul{
+    padding: 0px;
+    list-style: none;
+}
+.card>img{
+    width: 100%;
+}
+.card-ineer{
+    padding: 40px;
+}
+.card-ineer>h1{
+    line-height: 35px;
+}
+.card-ineer>p{
+    line-height: 22px;
+    margin: 10px 0px;
+}
+#btn-1{
+    margin:15px 0px;
+    height: 28px;
+    width: 125px;
+    border:none;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: roboto;
+}
+#btn-2{
+    margin:15px 0px;
+    height: 38px;
+    width: 190px;
+    border-radius: 8px;
+    background-color: orange;
+    border:none;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: roboto;
+}
+.icon-1{
+    padding: 10px;
+    font-size: 15px;
+}
+.right-arrow{
+    font-size: 10px;
+    padding: 5px;
+}
+#btn-2:hover{
+    background-color: rgb(29, 27, 27);
+    color: white;
+    transition: 0.5s;
+}
+/* our selection */
+.selection{
+    background-color: orange;
+    width: 100%;
+    padding-bottom: 73px;
+    padding-top: 74px;
+}
+.selection h1{
+    font-size: 40px;
+}
+#btn-3{
+    margin:15px 0px;
+    height: 38px;
+    width: 210px;
+    border-radius: 8px;
+    background-color: black;
+    border:none;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: roboto;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.selection .col-6{
+    background-image: url(../images/palak.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+.selection .col-3>.apple{
+    background-image: url(../images/apple.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-x:center;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-size: 250px;
+    position: relative;
+
+}
+
+.selection .col-3>.lentils{
+    background-image: url(../images/lentils.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-x:center;
+    border-radius: 10px;
+    background-size: 250px;
+    position: relative;
+}
+
+/* card-6 inner */
+.card-inner2{
+    position: absolute;
+    top: 50%;
+    padding: 0px 30px;
+}
+.card-inner2>p{
+    color: white;
+    line-height: 25px;
+}
+.card-inner2>h1{
+    color: orange;
+    margin: 10px 0px;
+}
+#btn-4{
+    margin:15px 0px;
+    height: 38px;
+    width: 180px;
+    border-radius: 8px;
+    background-color:orange;
+    border:none;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: roboto;
+    color: rgb(8, 8, 8);
+}
+#btn-4:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+/* apple card inner */
+.apple>.card-inner{
+    position: absolute;
+    top: 30%;
+    padding: 20px;
+}
+.apple>.card-inner>p{
+    padding: 5px;
+}
+.card-inner>h6{
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.card-inner>h3{
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.card-inner>h1{
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-inner>select{
+    padding: 10px 0px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.card-inner>select{
+    padding: 10px 0px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#btn-5{
+    margin:15px 0px;
+    height: 38px;
+    width: 185px;
+    border-radius: 8px;
+    background-color:orange;
+    border:none;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: roboto;
+    color: rgb(8, 8, 8);
+}
+/* lentils card inner */
+.lentils>.card-inner{
+    position: absolute;
+    top: 30%;
+    padding: 20px;
+}
+.lentils>.card-inner>p{
+    padding: 5px;
+}
+#btn-5:hover{
+    background-color: rgb(32, 30, 30);
+    color: white;
+    transition: 0.5s;
+}
+/* footer start */
+.footer{
+    margin-top: 100px;
+    padding: 50px 0px;
+    background-color: var(--mainColor);
+    color: white;
+}
+.col-1 .card>ul{
+    line-height: 30px;
+}
+.col-2 .icon{
+    padding: 20px;
+    background-color: rgb(237, 170, 48);
+    border-radius: 5px;
+    margin-top: 25px;
+    color: black;
+}
+.col-4 .card>p{
+    padding: 20px 0px;
+}
+
+.card i{
+    padding-left: 12px;
+}
+
+.card ul li{ opacity: 0.5;}
+
+input[type="email"]{
+    width: 202px;
+    height: 40px;
+    background: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    margin: 0px;
+}
+.gmail-icon{
+    background-color: orange;
+    font-size: 14px;
+    padding: 14px;
+    border-radius: 30%;
+}
